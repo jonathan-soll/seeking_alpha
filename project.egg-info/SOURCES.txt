@@ -1,0 +1,13 @@
+setup.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt
+seekingalpha_crawler/__init__.py
+seekingalpha_crawler/items.py
+seekingalpha_crawler/middlewares.py
+seekingalpha_crawler/pipelines.py
+seekingalpha_crawler/settings.py
+seekingalpha_crawler/spiders/__init__.py
+seekingalpha_crawler/spiders/seekingalpha_spider.py
