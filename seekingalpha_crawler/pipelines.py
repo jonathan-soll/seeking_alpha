@@ -22,7 +22,7 @@ class SeekingalphaCrawlerPipeline(object):
         self.database = 'securities_master'
         self.username = 'JSoll'
         self.password = 'Emjosa139'
-        self.driver= '{ODBC Driver 13 for SQL Server}'
+        self.driver= '{ODBC Driver 17 for SQL Server}'
         self.cnxn = pyodbc.connect('DRIVER='+self.driver+';SERVER='+self.server+';PORT=1433;DATABASE='+self.database+';UID='+self.username+';PWD='+ self.password)
 
     def process_item(self, item, spider):
